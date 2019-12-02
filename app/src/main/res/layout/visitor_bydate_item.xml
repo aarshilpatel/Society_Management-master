@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:paddingTop="1dp"
+    android:paddingBottom="2dp"
+    android:background="#E4F1EB"
+    android:layout_margin="3dp">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginLeft="30dp"
+        android:id="@+id/profileImage"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="2dp"
+        android:src="@mipmap/ic_launcher_round"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="1dp" />
+
+    <LinearLayout
+       android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textColor="#212121"
+            android:textSize="20dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:text="Contact no" />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/flatno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#212121"
+            android:text="Flat no" />
+    </LinearLayout>
+
+</LinearLayout>

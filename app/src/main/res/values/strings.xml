@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Society</string>
+    <string name="title_activity_scrolling_chairman">ScrollingActivityChairman</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Know Your Society</string>
+    <string name="slide_1_desc">Know Your SocietyKnow Your SocietyKnow Your Society</string>
+
+    <string name="slide_2_title">Get All Notice </string>
+    <string name="slide_2_desc">Explore what happening in society </string>
+
+    <string name="slide_3_title">Know Available Flats</string>
+    <string name="slide_3_desc">Know Available FlatsKnow Available FlatsKnow Available Flats </string>
+
+    <string name="slide_4_title">News and Blogs</string>
+    <string name="slide_4_desc">"Get all the news and event updates on the go."</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="large_text">
+        ..
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_addcomplain">Complain</string>
+    <string name="title_activity_main2">Main2Activity</string>
+</resources>

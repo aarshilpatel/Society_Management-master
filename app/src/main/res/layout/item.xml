@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/tquestion"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your questsvwssssss ssssssvvvvv vvvvd fion ? "/>
+    <View
+        android:id="@+id/view"
+        android:layout_below="@+id/tquestion"
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="#B8B894" />
+    <LinearLayout
+        android:id="@+id/llr"
+        android:layout_below="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--<!-&ndash;&gt; <CheckBox
+             android:id="@+id/cb"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:onClick="checkreadio"/>
+         <CheckBox
+             android:id="@+id/cb1"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:onClick="checkreadio"
+             />
+         <CheckBox
+             android:id="@+id/cb2"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:onClick="checkreadio"/>
+         <CheckBox
+             android:id="@+id/cb3"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="10dp"
+             android:textSize="20dp"
+             android:onClick="checkreadio"/>
+   --> <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:onClick="checkreadio"
+            android:id="@+id/radio1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:onClick="checkreadio"
+            android:id="@+id/radio2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:textSize="20dp" />
+        <RadioButton
+            android:onClick="checkreadio"
+            android:id="@+id/radio3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+            android:checked="false"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:onClick="checkreadio"
+            android:id="@+id/radio4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:checked="false"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llr"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="30dp">
+
+        <Button
+            android:id="@+id/bPre"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape"
+            android:gravity="center"
+            android:text="Previous"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/bvote"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape"
+            android:gravity="center"
+            android:text="Vote"
+            android:textColor="#fff" />
+
+
+        <Button
+            android:id="@+id/bnext"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:background="@drawable/btn_shape"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="#fff" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llr2"
+        android:layout_below="@+id/llr1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="140dp"
+        tools:ignore="Orientation"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/bresult"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:background="@drawable/btn_shape"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Result"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

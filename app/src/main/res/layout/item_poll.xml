@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="325dp"
+    >
+
+
+    <TextView
+        android:id="@+id/text_que"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Qu."
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_view_question"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_above="@+id/radio_group"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginBottom="46dp"
+        android:gravity="left"
+        android:paddingLeft="10dp"
+        android:text="question of quiz"
+
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        tools:ignore="UnknownId" />
+
+    <RadioGroup
+
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_view_question"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="-46dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="option4" />
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:text="option1" />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="option3" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="option2" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/vote"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="Vote" />
+
+
+
+</RelativeLayout>

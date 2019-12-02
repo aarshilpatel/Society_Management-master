@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.flattemp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_logo"
+        android:supportsRtl="true"
+        android:testOnly="false"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning,HardcodedDebugMode">
+        <activity android:name=".Guest_Vehicle"></activity>
+        <activity android:name=".Staff_Info" />
+        <activity android:name=".RulesAndRegulation" />
+        <activity android:name=".Vendor_Details" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Polls" />
+        <activity
+            android:name=".Adminweb"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".DocumentsActivity" />
+        <activity
+            android:name=".knowyoursocietyopt"
+            android:label="Know Your Society"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SendBookingdata" />
+        <activity
+            android:name=".GalleryCatagoryActivity"
+            android:label="Catagory"
+            android:parentActivityName=".Lifeatsociety"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProjectExpences"
+            android:parentActivityName=".AccountOptopns"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewStatementSociety"
+            android:parentActivityName=".AccountOptopns"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ViewStatementSelf"
+            android:parentActivityName=".AccountOptopns"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".AccountOptopns"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".EditProfile"
+            android:label="Edit Profile"
+            android:parentActivityName=".Profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Profile"
+            android:noHistory="true"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Offers"
+            android:label="Offers"
+            android:parentActivityName=".Businessbuzzar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Halloffame"
+            android:label="Hall Of Fame"
+            android:parentActivityName=".Businessbuzzar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Publicwall"
+            android:label="Public Wall"
+            android:parentActivityName=".Businessbuzzar"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Businessbuzzar"
+            android:label="Local Interaction"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Poll"
+            android:label="Society Poll"
+            android:parentActivityName=".Official"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Meetings"
+            android:label="Meetings"
+            android:parentActivityName=".Official"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ShowSingleVisitor"
+            android:label="Visitor Details"
+            android:parentActivityName=".Visitor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Forgotpassword"
+            android:label="Forgot Password"
+            android:parentActivityName=".Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AccountPayment"
+            android:label="Payment"
+            android:parentActivityName=".AccountOptopns"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViewRecipt"
+            android:label="Receipt"
+            android:parentActivityName=".AccountOptopns"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Viewcomplain"
+            android:label="@string/title_activity_addcomplain"
+            android:parentActivityName=".Official"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat" />
+        <activity
+            android:name=".Notice"
+            android:label="Notice"
+            android:parentActivityName=".Official"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Complain"
+            android:label="Complain"
+            android:parentActivityName=".Official"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BookingHistory"
+            android:label="Booking History"
+            android:parentActivityName=".FacilityBooking" />
+        <activity
+            android:name=".BookingActivity"
+            android:label="Booking Flat"
+            android:parentActivityName=".FacilityBooking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WelcomeSliders"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Shoesingleimage"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme1" />
+        <activity
+            android:name=".ScrollingActivityChairman"
+            android:label="@string/title_activity_scrolling_chairman"
+            android:parentActivityName=".Lifeatsociety"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Visitor"
+            android:label="Visitors"
+            android:parentActivityName=".FacilityBooking"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Official"
+            android:label="Official"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Chairmanmessage"
+            android:parentActivityName=".Lifeatsociety"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpcomingEvents"
+            android:label="Upcoming Events"
+            android:parentActivityName=".Lifeatsociety" />
+        <activity
+            android:name=".GalleryActivity"
+            android:label="Gallery"
+            android:parentActivityName=".GalleryCatagoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Knowyoursociety"
+            android:label="Know Your Society"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FacilityBooking"
+            android:label="Facility  Booking"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Lifeatsociety"
+            android:label="Life At Society"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <!--
+  <activity
+            android:name=".Signup"
+            android:label="SignUp"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        -->
+        <activity
+            android:name=".Login"
+            android:label="Login"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
